@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="animation.js"></script>
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="IMG/logo bgless (2).png" alt="Logo" width="150" class="img-fluid" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html"><b>Home</b></a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Academics</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="junior_high_school.html">Junior High School</a></li>
+              <li><a class="dropdown-item" href="senior_high_school.html">Senior High School</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Student Organizations</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="sslg.html">Supreme Secondary Learner Government</a></li>
+              <li><a class="dropdown-item" href="roquean.html">The Roquean Herald</a></li>
+              <li><a class="dropdown-item" href="index.html">Ing Siuala</a></li>
+              <li><a class="dropdown-item" href="bdk.html">Barkada Kontra Droga</a></li>
+              <li><a class="dropdown-item" href="yes_o.html">Yes-O</a></li>
+              <li><a class="dropdown-item" href="science_club.html">Science Club</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">About</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="History.html">History</a></li>
+              <li><a class="dropdown-item" href="Contact Us.html">Contact Us</a></li>
+              <li><a class="dropdown-item" href="enrollment form.html">Enrollment Form</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero-section text-white text-center d-flex flex-column justify-content-center align-items-center vh-100 pt-5">
+    <div class="container mt-5">
+      <h1 class="display-5 fw-bold fade-in">SAN ROQUE NATIONAL HIGH SCHOOL</h1>
+      <p class="lead mt-3">
+        San Roque National High School is dedicated to shaping students into well-rounded individuals 
+        who are prepared to meet the challenges of the modern world. Our goal is to provide a high-quality 
+        education that fosters academic excellence, critical thinking, and lifelong learning.
+      </p>
+      <a href="enrollment_form.html" class="btn btn-maroon mt-3">Enroll Now</a>
+    </div>
+  </header>
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="ratio ratio-16x9">
+        <iframe
+          src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FSRNHSDiaries%2Fvideos%2F470039422376737%2F&show_text=false&width=560&t=0"
+          allowfullscreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section class="py-5">
+  <div class="container">
+    <div id="highlightCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#highlightCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#highlightCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#highlightCarousel" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#highlightCarousel" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#highlightCarousel" data-bs-slide-to="4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="IMG/C1.jpg" class="d-block w-100 object-fit-cover fixed-carousel-height" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="IMG/C2.jpg" class="d-block w-100 object-fit-cover fixed-carousel-height" alt="Slide 2">
+        </div>
+        <div class="carousel-item">
+          <img src="IMG/C3.jpg" class="d-block w-100 object-fit-cover fixed-carousel-height" alt="Slide 3">
+        </div>
+        <div class="carousel-item">
+          <img src="IMG/C4.jpg" class="d-block w-100 object-fit-cover fixed-carousel-height" alt="Slide 4">
+        </div>
+        <div class="carousel-item">
+          <img src="IMG/C5.jpg" class="d-block w-100 object-fit-cover fixed-carousel-height" alt="Slide 5">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#highlightCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#highlightCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+  <section class="py-5 hero-section">
+  <div class="container my-5 text-center">
+    <h2 class="mb-4 acad">ACADEMIC PROGRAMS</h2>
+    <div class="row g-4">
+      <div class="col-md-4 d-flex fade-in">
+        <div class="card shadow-sm w-100 d-flex flex-column">
+          <img src="IMG/A2.jpg" class="card-img-top img-fluid" alt="STE Program">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h5 class="card-title">STE PROGRAM</h5>
+            <a href="ste_program.html" class="btn-maroon mt-auto btn">Explore Programs →</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex fade-in">
+        <div class="card shadow-sm w-100 d-flex flex-column">
+          <img src="IMG/Junior High School.png" class="card-img-top img-fluid" alt="Junior High School">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h5 class="card-title">JUNIOR HIGH SCHOOL</h5>
+            <a href="junior_high_school.html" class="btn-maroon mt-auto btn">Explore Programs →</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex fade-in">
+        <div class="card shadow-sm w-100 d-flex flex-column">
+          <img src="IMG/Senior High School.png" class="card-img-top img-fluid" alt="Senior High School">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h5 class="card-title">SENIOR HIGH SCHOOL</h5>
+            <a href="senior_high_school.html" class="btn-maroon mt-auto btn">Explore Programs →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="announcement text-center text-uppercase mb-4 fade-in">DepEd Mission, Vision, and Core Values</h2>
+    <div class="row g-4">
+      <div class="col-md-12 col-sm-12 col-lg-6 d-flex">
+        <div class="info-box border p-3 w-100 h-100 d-flex flex-column align-items-center text-center rounded-3 transition-all hover-effect">
+          <h5 class="info-title announcement mb-3">Mission</h5>
+          <p class="info-text">To protect and promote the right of every Filipino to quality, equitable, culture-based, and complete basic education where: Students learn in a child-friendly, gender-sensitive, safe, and motivating environment. Teachers facilitate learning and constantly nurture every learner. Administrators and staff, as stewards of the institution, ensure an enabling and supportive environment for effective learning to happen. Family, community, and other stakeholders are actively engaged and share responsibility for developing life-long learners.</p>
+        </div>
+      </div>
+      <div class="col-md-12 col-sm-12 col-lg-6 d-flex">
+        <div class="info-box border p-3 w-100 h-100 d-flex flex-column align-items-center text-center rounded-3 transition-all hover-effect">
+          <h5 class="info-title announcement mb-3">Vision</h5>
+          <p class="info-text">We dream of Filipinos who passionately love their country and whose values and competencies enable them to realize their full potential and contribute meaningfully to building the nation. As a learner-centered public institution, the Department of Education continuously improves itself to better serve its stakeholders.</p>
+        </div>
+      </div>
+      <div class="col-md-12 col-sm-12 col-lg-12 d-flex">
+        <div class="info-box border p-3 w-100 h-100 d-flex flex-column align-items-center text-center rounded-3 transition-all hover-effect">
+          <h5 class="info-title announcement mb-3">Core Values</h5>
+          <p class="info-text">Maka-Diyos, Makatao, Makakalikasan, Makabansa</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="announcement text-center text-uppercase">Recent News</h2>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3 col-sm-6 fade-in">
+        <div class="card h-100">
+          <img src="IMG/RN 1.jpg" class="card-img-top" style="height: 200px; object-fit: cover;" alt="News 1">
+          <div class="card-body d-flex flex-column">
+            <h6 class="text-uppercase maroon-title"><strong>SOBRANG LATINA!</strong></h6>
+            <p class="small flex-grow-1">They ATE and LEFT NO CRUMBS laban sa public at private schools sa buong Tarlac! 
+              Qualifier sa Semi-Final Round, at naiuwi ang 3RD PLACE sa Division Press Conference Final Round - Category: 
+              PAGSULAT NG ISKRIP AT TV BROADCASTING - SECONDARY FILIPINO.</p>
+            <a href="sobrang_latina.html" class="btn btn-maroon mt-auto">Read More →</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6 col-lg-3 col-sm-6 fade-in">
+        <div class="card h-100">
+          <img src="IMG/RN2.jpg" class="card-img-top" style="height: 200px; object-fit: cover;" alt="News 1">
+          <div class="card-body d-flex flex-column">
+            <h6 class="text-uppercase maroon-title"><strong>Victory for San Roque National High School!</strong></h6>
+            <p class="small flex-grow-1">Our school proudly clinched 3rd place in the 2024 National Media and 
+              Information Literacy Quiz Bee held on November 9 at the Gerry Roxas Foundation in Cubao, Quezon City.</p>
+            <a href="victory_srnhs.html" class="btn btn-maroon mt-auto">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 col-sm-6 fade-in">
+        <div class="card h-100">
+          <img src="IMG/RN 3.jpg" class="card-img-top" style="height: 200px; object-fit: cover;" alt="News 1">
+          <div class="card-body d-flex flex-column">
+            <h6 class="text-uppercase maroon-title"><strong>CONGRATULATIONS! Tatak SRNHS! 2024 DIVISION SCHOOLS PRESS CONFERENCE FINAL ROUND WINNERS</strong></h6>
+            <p class="small flex-grow-1">RSPC QUALIFIERS: Miracle Faith L. Tuazon - Science Writing Coach: Diana Joy A. 
+              Yuzon Christine Joy R. Miranda - Editorial Cartooning Coach: Raymond Nonato C. Anunciacion</p>
+            <a href="tatak_srnhs.html" class="btn btn-maroon mt-auto">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3 col-sm-6  fade-in">
+        <div class="card h-100">
+          <img src="IMG/RN4.jpg" class="card-img-top" style="height: 200px; object-fit: cover;" alt="News 1">
+          <div class="card-body d-flex flex-column">
+            <h6 class="text-uppercase maroon-title"><strong>Mapabilang pa lang sa FINALIST sa buong Pilipinas ay ipinagmamalaki na namin kayo!</strong></h6>
+            <p class="small flex-grow-1">Congratulations sa pagkamit ng MOST CHILD-FRIENDLY DOCUMENTARY AWARD, tunay ngang namayani sa inyo ang 
+              kahalagahan ng pagbibigay impormasyon sa kabataan.</p>
+            <a href="finalist_pilipinas.html" class="btn btn-maroon mt-auto">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="announcement text-center mb-5 display-5" >ANNOUNCEMENT</h2>
+    <div class="row g-4">
+
+      <div class="col-md-6  col-lg-3 col-sm-6 fade-in">
+        <div class="card h-100 w-100">
+          <img src="IMG/A1.jpg" class="card-img-top img-fluid" alt="Announcement 1" style="height: 200px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-uppercase maroon-title"><b> Program in Foreign Language (SPFL) Chinese Mandarin</b></h5>
+            <p class="card-text flex-grow-1">你好 Nǐ hǎo! San Roque National High School is now accepting applications for the Special Program in Foreign Language (SPFL) – Chinese Mandarin for incoming Grade 7 students for School Year 2025-2026.</p>
+            <a href="pflcm.html" class="btn btn-maroon mt-auto">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6  col-lg-3 col-sm-6 fade-in">
+        <div class="card h-100 w-100">
+          <img src="IMG/A2.jpg" class="card-img-top img-fluid" alt="Announcement 2" style="height: 200px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-uppercase maroon-title"><b>STE PROGRAM</b></h5>
+            <p class="card-text flex-grow-1">Grade 7 Science, Technology, and Engineering (STE) Program application is now open! If you're eager to learn and explore new scientific opportunities, here is your chance to be part of an exciting learning journey!</p>
+            <a href="ste_announcement.html" class="btn btn-maroon mt-auto">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6  col-lg-3 col-sm-6 fade-in">
+        <div class="card h-100 w-100">
+          <img src="IMG/A3.jpg" class="card-img-top img-fluid" alt="Announcement 3" style="height: 200px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-uppercase maroon-title"><b>ANNOUNCEMENT</b></h5>
+            <p class="card-text flex-grow-1">Our student government president was recognized as the <strong>Best Student Leader</strong> in the region.</p>
+            <a href="announcement.html" class="btn btn-maroon mt-auto">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6  col-lg-3 col-sm-6 fade-in">
+        <div class="card h-100 w-100">
+          <img src="IMG/A4.jpg" class="card-img-top img-fluid" alt="Announcement 4" style="height: 200px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-uppercase maroon-title"><b>Most Innovative Project</b></h5>
+            <p class="card-text flex-grow-1">SRNHS was honored for <strong>Most Innovative Educational Project</strong> at the DepEd National Awards 2024.</p>
+            <a href="misp.html" class="btn btn-maroon mt-auto">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="logo-carousel py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col">
+        <div class="logos-slide d-flex">
+          <img src="IMG/DepEd-MATATAG_BagongPilipinas-1024x531.png" alt="Logo 1">
+          <img src="IMG/DepEd Logo.png" alt="Logo 2">
+          <img src="IMG/srnhs logo.png" alt="Logo 3">
+          <img src="IMG/schools division logo.png" alt="Logo 4">
+          <img src="IMG/DepEd-MATATAG_BagongPilipinas-1024x531.png" alt="Logo 1">
+          <img src="IMG/DepEd Logo.png" alt="Logo 2">
+          <img src="IMG/srnhs logo.png" alt="Logo 3">
+          <img src="IMG/schools division logo.png" alt="Logo 4">
+          <img src="IMG/DepEd-MATATAG_BagongPilipinas-1024x531.png" alt="Logo 1">
+          <img src="IMG/DepEd Logo.png" alt="Logo 2">
+          <img src="IMG/srnhs logo.png" alt="Logo 3">
+          <img src="IMG/schools division logo.png" alt="Logo 4">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer py-5">
+  <div class="container">
+      <div class="row text-white">
+
+          <div class="col-md-4">
+              <h5 class="text-uppercase fw-bold mb-3">Quick Links</h5>
+              <ul class="list-unstyled">
+                  <li class="mb-3"><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+                  <li class="mb-3"><a href="junior_high_school.html" class="text-white text-decoration-none">Academics</a></li>
+                  <li class="mb-3"><a href="senior_high_school.html" class="text-white text-decoration-none">Student Organizations</a></li>
+                  <li class="mb-3"><a href="history.html" class="text-white text-decoration-none">About</a></li>
+              </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h5 class="text-uppercase fw-bold mb-3">Recent News</h5>
+            <ul class="list-unstyled">
+                <li class="mb-3">
+                    <small class="">Feb 15, 2024</small><br>
+                    <a href="sobrang_latina.html" class="text-white text-decoration-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path d="M10.354 8l-4-4a1 1 0 0 0-1.414 1.414L7.586 7H3a1 1 0 0 0 0 2h4.586l-2.646 2.646a1 1 0 1 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414z"/></svg>
+                        SOBRANG LATINA!
+                    </a>
+                </li>
+                <li class="mb-3">
+                    <small class="">Nov 12, 2024</small><br>
+                    <a href="victory_srnhs.html" class="text-white text-decoration-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path d="M10.354 8l-4-4a1 1 0 0 0-1.414 1.414L7.586 7H3a1 1 0 0 0 0 2h4.586l-2.646 2.646a1 1 0 1 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414z"/></svg>
+                        Victory for San Roque National High School!
+                    </a>
+                </li>
+                <li class="mb-3">
+                    <small class="">Feb 11, 2024</small><br>
+                    <a href="tatak_srnhs.html" class="text-white text-decoration-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path d="M10.354 8l-4-4a1 1 0 0 0-1.414 1.414L7.586 7H3a1 1 0 0 0 0 2h4.586l-2.646 2.646a1 1 0 1 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414z"/></svg>
+                        CONGRATULATIONS! Tatak SRNHS! 2024 DIVISION SCHOOLS PRESS CONFERENCE FINAL ROUND WINNERS
+                    </a>
+                </li>
+                <li class="mb-3">
+                    <small class="">Nov 12, 2023</small><br>
+                    <a href="finalist_pilipinas.html" class="text-white text-decoration-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path d="M10.354 8l-4-4a1 1 0 0 0-1.414 1.414L7.586 7H3a1 1 0 0 0 0 2h4.586l-2.646 2.646a1 1 0 1 0 1.414 1.414l4-4a1 1 0 0 0 0-1.414z"/></svg>
+                        Mapabilang pa lang sa FINALIST sa buong Pilipinas ay ipinagmamalaki na namin kayo!
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+          <div class="col-md-4">
+              <h5 class="text-uppercase fw-bold mb-3">Contact Us</h5>
+              <ul class="list-unstyled">
+                  <li>
+                      <i class=""></i> 
+                      San Roque National High School, Bamban, Tarlac, Philippines
+                  </li>
+                  <li>
+                      <i class=""></i> 
+                      <a href="tel:+639123456789" class="text-white text-decoration-none">+639 123 456 789</a>
+                  </li>
+                  <li>
+                      <i class=""></i> 
+                      <a href="mailto:info@srnhs.edu.ph" class="text-white text-decoration-none">info@srnhs.edu.ph</a>
+                  </li>
+                  <li>
+                      <i class=""></i> 
+                      <a href="mailto:snrqe_2317@srnhs.edu.ph" class="text-white text-decoration-none">snrqe_2317@srnhs.edu.ph</a>
+                  </li>
+              </ul>
+        </div>
+      </div>
+  </div>
+</footer>
+
+  <bfooter>
+    <hr class="border-light">
+          <div class="text-center p-3">
+              <img src="IMG/logo bgless (2).png" class="footer-logo img-fluid" alt="SRNHS Logo" style="max-height: 50px;">
+              <p class="text-secondary">© 2025 San Roque National High School. All Rights Reserved.</p>
+          </div>
+  </bfooter>
+
+  
+</body>
+
+</html>

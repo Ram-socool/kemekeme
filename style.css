@@ -1,0 +1,318 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-maroon {
+  background-color: #800000;
+  color: #fff;
+  border: none;
+}
+
+.btn-maroon:hover {
+  background-color: #ba1111;
+  color: #fff;
+}
+
+.announcement {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #800000; 
+}
+
+.acad{
+  color: white;
+  font-size: 3rem;
+}
+
+.maroon-text{
+  color: #800000;
+}
+
+.maroon-title{
+  color: #800000;
+}
+.hover-maroon:hover {
+  color: #ffffff !important;
+  background-color: rgb(128, 0, 0);
+  transition: all 0.3s ease;
+}
+
+.hover-dark:hover {
+  color: #ffffff !important;
+  background-color: rgb(128, 0, 0);
+  transition: all 0.3s ease;
+}
+
+.maroon-text {
+  color: #800000;
+}
+
+  .hero-section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.hero-section {
+  background-image: url('IMG/school\ bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  color: #000000;
+}
+
+.footer a:hover {
+    color: #bb2d3b;
+    text-decoration: underline;
+}
+
+.footer{
+  background-color: #751c25;
+}
+
+.logo-carousel {
+  background: #fff;
+  overflow: hidden;
+  position: relative;
+}
+
+.logos-slide {
+  animation: slide 30s linear infinite;
+}
+
+.logos-slide img {
+  height: 100px;
+  margin: 0 40px;
+  filter: grayscale(100%);
+  transition: 0.3s ease-in-out;
+}
+
+.logos-slide img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+  .my-navbar {
+    background-color: transparent;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+
+  .my-navbar.scrolled {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+    body {
+        padding-top: 56px;
+    }
+    
+    @media (max-width: 992px) {
+        body {
+            padding-top: 50px;
+        }
+        
+
+        .banner-container {
+            margin-top: 10px;
+        }
+    }
+    
+    .fixed-top {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .maroon-title {
+        color: #800000;
+        position: relative;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .maroon-title:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 60px;
+        height: 3px;
+        background-color: #800000;
+    }
+    
+    .school-name {
+        color: #800000;
+        font-weight: 700;
+    }
+    
+    .curriculum-card {
+        border-left: 4px solid #800000;
+        transition: transform 0.3s ease;
+    }
+    
+    .curriculum-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    
+    .section-header {
+        position: relative;
+        margin-bottom: 40px;
+    }
+    
+    .section-header:after {
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 3px;
+        background-color: #800000;
+    }
+
+    .section-nav {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .section-nav .btn {
+        min-width: 120px;
+        border: 2px solid #800000;
+        color: #800000;
+        font-weight: 600;
+        border-radius: 0;
+        transition: all 0.3s ease;
+    }
+    
+    .section-nav .btn:hover,
+    .section-nav .btn.active {
+        background-color: #800000;
+        color: white;
+    }
+    
+
+    .text-maroon {
+      color: maroon;
+    }
+    
+    .btn-maroon {
+      background-color: maroon;
+      color: white;
+      padding: 8px 20px;
+      border: none;
+      border-radius: 5px;
+      font-weight: 500;
+      transition: 0.3s ease;
+      text-transform: uppercase;
+    }
+    
+    .btn-maroon:hover {
+      background-color: #800000;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 576px) {
+        .section-nav .btn {
+            min-width: 100px;
+            padding: 8px 12px;
+            font-size: 14px;
+        }
+    }
+
+.banner-container img {
+  transition: opacity 1s ease;
+}
+
+.curriculum-card {
+  transition: opacity 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.curriculum-card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+  transform: translateY(-5px) !important;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.slide-up {
+  animation: slideUp 0.8s ease-out forwards;
+}
+
+@keyframes slideUp {
+  from { 
+      opacity: 0;
+      transform: translateY(30px);
+  }
+  to { 
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.hover-effect {
+  transition: all 0.3s ease;
+  border-color: #800000 !important;
+}
+
+.hover-effect:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(128, 0, 0, 0.2);
+  border: 2px solid #800000;
+  background-color: rgba(128, 0, 0, 0.03);
+}
+
+.hover-effect:hover .info-title {
+  color: #800000;
+}
+
+.transition-all {
+  transition: all 0.3s ease;
+}
