@@ -316,12 +316,3 @@
 .transition-all {
   transition: all 0.3s ease;
 }
-
-body {
-  overflow-x: hidden;
-}
-
-.logos-slide {
-  flex-wrap: wrap;
-  justify-content: center;
-}
